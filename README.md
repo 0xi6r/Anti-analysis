@@ -3,7 +3,6 @@
 A collection of anti-analysis techniques implemented in C to make reverse engineering more challenging.
 
 ## 🛡️ Techniques Implemented
-
 ### 1. Anti-Debugging (`anti_debugging.c`)
 - `IsDebuggerPresent()` and `CheckRemoteDebuggerPresent()`
 - Hardware breakpoint detection (debug registers)
@@ -37,8 +36,3 @@ A collection of anti-analysis techniques implemented in C to make reverse engine
 - Stack canary implementation
 
 #### These techniques are for learning about software protection and reverse engineering
-
-# Run
-./anti_debug.exe
-./anti_disasm.exe
-./integrity.exe
